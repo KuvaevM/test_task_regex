@@ -1,1 +1,2 @@
 # test_task_regex
+The matches method creates an instance of this thread, starts it, and then waits up to 5 seconds for it to finish using the join method. If the thread finishes before the timeout expires, the method returns the result of the matching operation. If the thread is interrupted, the method returns false.  Of course, it's better to make the thread's running time a constant, but since we have only one function, I used just a number.
